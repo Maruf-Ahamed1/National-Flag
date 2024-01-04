@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.All{
+    height:800px;
+    width: 1000px;
+    background-color: antiquewhite;
+    margin: 100px;
+}
+.green{
+    height: 200px;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+    
+}
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+.black{
+    height: 250px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    top:200px;
+    /* border-radius: 8px; */
+}
+.yollow{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
